@@ -1994,7 +1994,7 @@ input, select, textarea {
 	}
 
 		.features section {
-			padding: 3.5em 3em 1em 7em ;
+			padding: 2.5em 3em 2em 7em ;
 			width: 50%;
 			border-top: solid 1px rgba(255, 255, 255, 0.15);
 			position: relative;
@@ -2022,8 +2022,7 @@ input, select, textarea {
 				-ms-transform: scale(1);
 				transform: scale(1);
 				position: absolute;
-				left: 3em;
-				top: 3em;
+				top: 1.5em;
 				opacity: 1;
 			}
 
@@ -2196,12 +2195,11 @@ input, select, textarea {
 		@media screen and (max-width: 736px) {
 
 			.features section {
-				padding: 2.5em 1.5em 0.1em 5.5em ;
+				padding: 2em 1.5em 1.1em 5.5em ;
 			}
 
 				.features section .icon {
-					left: 1.5em;
-					top: 2em;
+					top: .5em;
 				}
 
 		}
@@ -2209,11 +2207,11 @@ input, select, textarea {
 		@media screen and (max-width: 480px) {
 
 			.features section {
-				padding: 2em 1.5em 0.1em 1.5em ;
+				padding: 2.5em 6em 2em 6em ;
 			}
 
 				.features section .icon {
-					left: 0;
+					left: 4em;
 					position: relative;
 					top: 0;
 				}
@@ -2520,11 +2518,9 @@ input, select, textarea {
 		}
 
 		.icon.major {
-			width: 2.5em;
-			height: 2.5em;
+			width: 4em;
+			height: 4em;
 			display: block;
-			background: #ffffff;
-			border-radius: 100%;
 			color: #312450;
 			text-align: center;
 			line-height: 2.5em;
@@ -3918,3 +3914,9 @@ input, select, textarea {
 	width: 20em;
 	margin: auto;
 }
+
+/* .icon > i {
+	font-size: 26px;
+	vertical-align: middle;
+	color: #b74e91;
+} */
